@@ -6,7 +6,7 @@ const { OpenAI } = require("openai")
 const app = express()
 
 const openai = new OpenAI({
-    apiKey : "insert key
+    apiKey : "insert key"
 })
 
 app.use(express.json())
